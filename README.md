@@ -1,6 +1,16 @@
-# Bike Sharing Analysis Dashboard
+# Bike Sharing Analysis Dashboard ✨
 
-## Cara Menjalankan:
-1. Pastikan sudah install library: `pip install pandas matplotlib seaborn streamlit`
-2. Masuk ke folder dashboard: `cd dashboard`
-3. Jalankan: `streamlit run dashboard.py`
+## Setup Environment - Anaconda
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+
+## Setup Environment - Shell/Terminal
+mkdir proyek_bike_sharing
+cd proyek_bike_sharing
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+
+## Run streamlit app
+streamlit run dashboard/dashboard.py
